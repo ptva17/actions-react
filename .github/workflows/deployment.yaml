@@ -45,7 +45,7 @@ jobs:
       - name: Get a Repository code
         uses: actions/checkout@v3
       - name: Install Node JS
-        uses: actions/setup-nade@v3
+        uses: actions/setup-node@v3
         with: 
           node-version: ${{ matrix.node-version }}
       - name: Cache deps
